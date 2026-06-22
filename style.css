@@ -263,12 +263,7 @@ button{
     justify-content:center;
     padding-left:8%;
     max-width:700px;
-    background:
-    linear-gradient(
-    90deg,
-    rgba(0,0,0,.95),
-    rgba(0,0,0,.75),
-    transparent);
+    background:linear-gradient(90deg,rgba(0,0,0,.95), rgba(0,0,0,.75), transparent);
 }
 
 .hero-rating{
@@ -424,13 +419,13 @@ transform:translateX(-400vw);
 }
 
 .flip-front img{
-    height:370px;
-    object-fit:cover;
+    height: 372px;
+    object-fit:fill;
 }
 
 .flip-front h3{
     text-align:center;
-    padding:12px;
+    padding:10px;
     font-size:1rem;
 }
 
@@ -516,9 +511,9 @@ transform:translateX(-400vw);
 }
 
 .popular-card img{
-    height:360px;
+    height:370px;
     width:100%;
-    object-fit:cover;
+    object-fit:fill;
     display:block;
 }
 
